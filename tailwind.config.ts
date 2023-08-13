@@ -6,7 +6,7 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   theme: {
     container: {
       center: true,
@@ -25,6 +25,14 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          500: 'hsl(236, 72%, 79%)',
+          600: 'hsl(237, 63%, 64%)',
+        },
+        neutral: {
+          200: 'hsl(240, 78%, 98%)',
+          400: 'hsl(234, 14%, 74%)',
+          500: 'hsl(233, 13%, 49%)',
+          600: 'hsl(232, 13%, 33%)',
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -73,4 +81,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
