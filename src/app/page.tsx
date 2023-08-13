@@ -10,8 +10,10 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center flex-col p-24 gap-20 bg-neutral-200">
       <div className="flex flex-col items-center">
-        <h2>Our Pricing</h2>
-        <div className="flex gap-2">
+        <h2 className="text-3xl text-neutral-500 font-bold mb-6">
+          Our Pricing
+        </h2>
+        <div className="flex gap-4 text-sm font-bold text-neutral-400 items-center">
           Annually
           <Switch
             checked={toggle}
