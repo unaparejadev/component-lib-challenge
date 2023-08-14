@@ -16,6 +16,7 @@ export default function Home() {
         <div className="flex gap-4 text-sm font-bold text-neutral-400 items-center">
           Annually
           <Switch
+            className="data-[state=checked]:bg-primary-600 data-[state=unchecked]:bg-primary-600"
             checked={toggle}
             onClick={() => setToggle(prevToggle => !prevToggle)}
           />
